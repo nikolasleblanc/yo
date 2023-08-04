@@ -1,6 +1,8 @@
 import MyNewComponent from '../components/my-new-component/my-new-component';
 import styles from './page.module.css';
 
+import { Button } from '@devdrools2/button';
+
 export default async function Index() {
   /*
    * Replace the elements below with your own.
@@ -17,6 +19,7 @@ export default async function Index() {
               Welcome devdrools2 👋
             </h1>
             <MyNewComponent />
+            <Button />
           </div>
 
           <div id="hero" className="rounded">
